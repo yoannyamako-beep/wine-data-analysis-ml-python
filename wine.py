@@ -23,7 +23,7 @@ X_wine = pd.DataFrame(wine.data, columns=wine.feature_names)
 y_wine = wine.target
 
 print("Nombre de lignes et de colonnes :", X_wine.shape)
-print("Colonnes Wine   :", list(X_wine.columns))
+print("Colonnes Wine   :" list(X_wine.columns))
 print()
 
 
